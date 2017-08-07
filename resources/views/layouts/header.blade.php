@@ -1,73 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Collections</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="{!! asset('css/normalize.css')!!}">
     <link rel="stylesheet" href="{!! asset('css/font-awesome.css')!!}">
     <link rel="stylesheet" href="{!! asset('css/bootstrap.min.css')!!}">
     <link rel="stylesheet" href="{!! asset('css/templatemo-style.css')!!}">
+    <script src="{!! asset('js/vendor/jquery-1.10.2.min.js')!!}"></script>
     <script src="{!! asset('js/vendor/modernizr-2.6.2.min.js')!!}"></script>
 
-
     <title>Collections</title>
-
 </head>
 
 <body>
+<div id="root" class="page">
+    <div class="row">
 
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
-<div id="loader-wrapper">
-    <div id="loader"></div>
-</div>
-
-<div class="content-bg"></div>
-<div class="bg-overlay"></div>
-
-<!-- SITE TOP -->
-<div class="site-top">
-    <div class="site-header clearfix">
-        <div class="container">
-            <a href="#" class="site-brand pull-left"><strong>Collections</strong></a>
-            <div class="social-icons pull-right">
-                <ul>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-behance"></a></li>
-                    <li><a href="#" class="fa fa-dribbble"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div> <!-- .site-header -->
-    <div class="site-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 text-center">
-                    <h2>Welcome To  <span class="blue">Collections</span><span class="green"></span></h2>
-                    <p><span class="blue">Collections </span><span class="green"></span>is ...</p>
+        <nav class="nav is-normal"><div class="container"><div class="nav-left dont-flex mr-2"><a href="/" class="nav-item is-brand">
+            <svg id="white-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792.51 102.4"><path d="M500.09,471.17a24.2,24.2,0,0,0-3.67-4.84q-7.07-7.24-18.09-7.24t-18.09,7.24q-7,7.18-7,18.65t7,18.68q7,7.21,18,7.21t18.09-7.24a23.49,23.49,0,0,0,3.67-4.9L515,505.46a38.79,38.79,0,0,1-6.79,8.74q-11.8,11.52-29.78,11.52t-29.92-11.55q-11.94-11.55-11.94-29.2t11.94-29.28q11.94-11.63,29.92-11.63T508,455.86a38.8,38.8,0,0,1,6.79,8.57Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path><path d="M677.73,444a44.48,44.48,0,0,1,29.11,10.35l-9.46,11.41a28.39,28.39,0,0,0-9.24-5.59,30.16,30.16,0,0,0-10.24-1.75q-6.12,0-9.63,2.67a6.49,6.49,0,0,0-2.56,5.29,6.56,6.56,0,0,0,3.28,5.68q2.56,1.73,12.41,4.51,11.63,3,17.31,6.57,10,6.63,10,18.43,0,10.8-9.35,17.92-8.46,6.24-21.49,6.23a46.6,46.6,0,0,1-33-13l9-11.47a36.24,36.24,0,0,0,10.3,7.07,29.9,29.9,0,0,0,13.64,3.28q6.68,0,10.58-2.84a8.35,8.35,0,0,0,3.51-6.62,7.28,7.28,0,0,0-3.56-6.29q-2.62-1.78-12.13-4.45-12.19-3.51-17.14-6.4-10.3-6.07-10.3-17.59A20.53,20.53,0,0,1,657,450.46Q665.21,444,677.73,444Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path> <path id="arrow" fill="#00b1b2" d="M549.44,537.66V504.75h12v13.78L621,489.74a29.75,29.75,0,0,0,4.21-2.31,15.41,15.41,0,0,0-1.36-.88l-62.42-31.73v19.93h-12V435.26L629.58,476c2.95,1.62,9.73,6.09,9,12.45-.68,6.09-8.18,10.27-12.67,12.24l-76.49,37Z" transform="translate(-86.99 -435.26)"></path><path d="M579.77,499H535a4.08,4.08,0,1,1,0-8.16h44.75a4.08,4.08,0,1,1,0,8.16Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path><path d="M525.91,499h-8.23a4.08,4.08,0,1,1,0-8.16h8.23a4.08,4.08,0,1,1,0,8.16Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path><path d="M544.14,488.13h-8.23a4.08,4.08,0,0,1,0-8.16h8.23a4.08,4.08,0,1,1,0,8.16Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path><path d="M596.19,488.14H553.44a4.08,4.08,0,1,1,0-8.16h42.75a4.08,4.08,0,0,1,0,8.16Z" transform="translate(-86.99 -435.26)" class="svg-logo-white"></path></svg></a></div> <div class="nav-center flex mr-2"><form method="GET" action="/search" class="nav-search-form is-flex"><svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="is-hidden-mobile" style="width: 30px;"><title>search</title> <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="search-icon" fill="#cacaca"><path d="M11.1921711,12.6063847 C10.0235906,13.4815965 8.5723351,14 7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,8.5723351 13.4815965,10.0235906 12.6063847,11.1921711 L14.0162265,12.6020129 C14.6819842,12.4223519 15.4217116,12.5932845 15.9484049,13.1199778 L18.7795171,15.95109 C19.5598243,16.7313971 19.5646685,17.9916807 18.7781746,18.7781746 C17.997126,19.5592232 16.736965,19.5653921 15.95109,18.7795171 L13.1199778,15.9484049 C12.5960188,15.4244459 12.4217025,14.6840739 12.6018353,14.0160489 L11.1921711,12.6063847 Z M7,12 C9.76142375,12 12,9.76142375 12,7 C12,4.23857625 9.76142375,2 7,2 C4.23857625,2 2,4.23857625 2,7 C2,9.76142375 4.23857625,12 7,12 Z"></path></g></g></svg>
+                        <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="input aa-hint" readonly="" aria-hidden="true" autocomplete="off" spellcheck="false" tabindex="-1" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="input aa-input aa-hint" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="both" aria-expanded="false" aria-labelledby="search" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="vertical-align: top; position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0px 0px / auto repeat scroll padding-box border-box transparent;" readonly="" aria-hidden="true" tabindex="-1"><input type="search" id="search" placeholder="WHAT WILL YOU LEARN NEXT?" name="q" required="required" class="input aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="both" aria-expanded="false" aria-labelledby="search" aria-owns="algolia-autocomplete-listbox-3" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Gotham SSm A&quot;, &quot;Gotham SSm B&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; word-spacing: 0px; letter-spacing: 1px; text-indent: 10px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-3" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-4"></div><div class="aa-dataset-5"></div></span></span><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Gotham SSm A&quot;, &quot;Gotham SSm B&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; word-spacing: 0px; letter-spacing: 1px; text-indent: 10px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-1"></div><div class="aa-dataset-2"></div></span></span> <button type="submit" class="button is-primary in-caps is-hidden-mobile">
+                            Search
+                        </button></form></div> <span class="nav-toggle"><span></span> <span></span> <span></span></span> <div class="nav-right nav-menu"><a href="/join" class="nav-item is-bold in-caps">
+                        Sign Up
+                    </a> <a href="/login" class="nav-item is-bold color-primary in-caps">
+                        Sign In
+                    </a>
                 </div>
             </div>
-            <div class="row">
-                <form action="#" method="post" class="subscribe-form">
-                    <fieldset class="col-md-offset-4 col-md-3 col-sm-8">
-                        <input type="email" id="subscribe-email" placeholder="Enter your email...">
-                    </fieldset>
-                    <fieldset class="col-md-5 col-sm-4">
-                        <input type="submit" id="subscribe-submit" class="button white" value="Subscribe!">
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div> <!-- .site-banner -->
-</div> <!-- .site-top -->
-
+        </nav>
 

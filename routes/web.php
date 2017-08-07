@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','collections\categoryController@index');
+Route::get('subCategory/{id?}','collections\SubCategoryController@index');
+Route::get('item/{id?}/{cat_id?}','collections\itemsController@index');
+Route::get('item/detail/{id?}/{cat_id?}','collections\itemsController@detail');
